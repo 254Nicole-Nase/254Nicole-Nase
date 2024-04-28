@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nicole Nasengo</h1>
-<h3 align="center">A passionate frontend developer from Kenya</h3>
+<h3 align="center">A passionate frontend dev student from Kenya</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/17707/screenshots/2413754/rrr.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=254nicole-nase&label=Profile%20views&color=0e75b6&style=flat" alt="254nicole-nase" /> </p>
@@ -8,7 +8,7 @@
 
 - 🔭 I’m currently working on **random web dev projects**
 
-- 🌱 I’m currently learning **Next.js, Vue, React, Data Analysis and DB management**
+- 🌱 I’m currently learning **Next.js, C, Vue, React, Data Analysis and DB management**
 
 - 👯 I’m looking to collaborate on **web based apps**
 
