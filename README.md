@@ -15,7 +15,7 @@
 
 - 📫 How to reach me **nasengonicole@gmail.com**
 
-- ⚡ Fun fact **I'm a Introverted, fantasy loving girl just trying to know her Web Dev**
+- ⚡ Fun fact **I'm an Introverted, fantasy loving girl just trying to know her Web Dev**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
