@@ -31,3 +31,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=254nicole-nase&show_icons=true&locale=en&theme=radical" alt="254nicole-nase" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=254nicole-nase&theme=radical" alt="254nicole-nase" /></p>
+<p><iframe width="600" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?@254Nicole-Nase" frameborder="0"></iframe></p>
