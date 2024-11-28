@@ -30,4 +30,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=254nicole-nase&show_icons=true&locale=en&theme=radical" alt="254nicole-nase" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=254nicole-nase&" alt="254nicole-nase" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=254nicole-nase&theme=radical" alt="254nicole-nase" /></p>
