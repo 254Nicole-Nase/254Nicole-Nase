@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
+  <title id="t">Nicole Nasengo</title>
+  <desc id="d">Animated banner: a greeting that cycles through Kiswahili, English and Japanese, the title ML and MLOps Engineer, Nairobi, available now, and a career pipeline from ingest to deploy.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, "Noto Sans JP", "Hiragino Sans", sans-serif; }
+    .g { opacity: 0; animation: greet 9s infinite; }
+    .g2 { animation-delay: 3s; }
+    .g3 { animation-delay: 6s; }
+    @keyframes greet { 0% { opacity: 0; transform: translateY(14px); } 4% { opacity: 1; transform: none; } 30% { opacity: 1; transform: none; } 34% { opacity: 0; transform: translateY(-10px); } 100% { opacity: 0; } }
+    .type { animation: type 9s steps(46) infinite; }
+    @keyframes type { 0% { width: 0; } 45% { width: 640px; } 90% { width: 640px; } 100% { width: 0; } }
+    .cursor { animation: follow 9s steps(46) infinite; }
+    @keyframes follow { 0% { transform: translateX(0); } 45% { transform: translateX(640px); } 90% { transform: translateX(640px); } 100% { transform: translateX(0); } }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .led { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+    .runner { animation: run 6s cubic-bezier(.6,0,.4,1) infinite; }
+    @keyframes run { 0% { transform: translateX(0); } 30% { transform: translateX(260px); } 55% { transform: translateX(520px); } 85%, 100% { transform: translateX(780px); } }
+    .n4 { animation: arrive 6s infinite; }
+    @keyframes arrive { 0%, 80% { fill: #0E1014; } 88%, 100% { fill: #F2A541; } }
+    @media (prefers-reduced-motion: reduce) { .g, .type, .cursor, .blink, .led, .runner, .n4 { animation: none; } .cursor { transform: translateX(640px); } .g1 { opacity: 1; } .type { width: 640px; } }
+  </style>
+
+  <rect width="1000" height="300" rx="18" fill="#0E1014"/>
+
+  <!-- status line -->
+  <circle class="led" cx="44" cy="40" r="5" fill="#7BD88F"/>
+  <text class="mono" x="58" y="45" font-size="15" fill="#A7A196">nicole-nasengo · v2026.11 · <tspan fill="#7BD88F">ready for deployment</tspan></text>
+
+  <!-- greeting, cycles through three languages -->
+  <g class="sans" font-size="58" font-weight="800" fill="#EEE8DF">
+    <text class="g g1" x="40" y="118">Habari, I'm Nicole<tspan fill="#F2A541">.</tspan></text>
+    <text class="g g2" x="40" y="118">Hello, I'm Nicole<tspan fill="#F2A541">.</tspan></text>
+    <text class="g g3" x="40" y="118">こんにちは、ニコルです<tspan fill="#F2A541">。</tspan></text>
+  </g>
+
+  <!-- typed title -->
+  <clipPath id="typeclip"><rect class="type" x="40" y="138" width="0" height="36"/></clipPath>
+  <text class="mono" x="40" y="164" font-size="22" fill="#F2A541" clip-path="url(#typeclip)">&gt; ML &amp; MLOps Engineer · Nairobi · available now</text>
+  <g class="cursor"><rect class="blink" x="42" y="146" width="11" height="24" fill="#F2A541"/></g>
+
+  <!-- career pipeline -->
+  <g transform="translate(110 232)">
+    <line x1="0" y1="0" x2="780" y2="0" stroke="#3A404C" stroke-width="2" stroke-dasharray="6 6"/>
+    <g fill="#0E1014" stroke="#F2A541" stroke-width="2">
+      <circle cx="0" cy="0" r="9"/>
+      <circle cx="260" cy="0" r="9"/>
+      <circle cx="520" cy="0" r="9"/>
+      <circle class="n4" cx="780" cy="0" r="9"/>
+    </g>
+    <circle class="runner" cx="0" cy="0" r="5" fill="#F48FB1"/>
+    <g class="mono" font-size="13" fill="#A7A196" text-anchor="middle">
+      <text x="0" y="34">ingest · Strathmore</text>
+      <text x="260" y="34">validate · KPA</text>
+      <text x="520" y="34">train · Safaricom</text>
+      <text x="780" y="34" fill="#F2A541">deploy · your team?</text>
+    </g>
+  </g>
+</svg>
